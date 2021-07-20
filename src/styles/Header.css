@@ -1,11 +1,19 @@
 .logo {
   font-family: "Rubik", sans-serif;
+  margin-left: 0.5rem;
+  color: #eb5569;
 }
 
 .nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 3rem;
   width: 100%;
+  margin-bottom: 2rem;
+  padding: 0.5rem 0rem;
+  border-bottom: 0.5px solid grey;
+}
+
+.container-header {
+  background-color: rgb(66, 61, 61);
 }
