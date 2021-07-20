@@ -78,3 +78,11 @@
   width: 15rem;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 5px 15px;
 }
+
+.error-div {
+  color: white;
+  text-align: center;
+  font-size: larger;
+  font-family: "Neucha", cursive;
+  margin-top: 1rem;
+}

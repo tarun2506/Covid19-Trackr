@@ -33,7 +33,7 @@ function Tracker() {
           setInputError("");
         })
         .catch((err) => {
-          setInputError("Check the Spelling...kiddo!");
+          setInputError("Your english is bad, pain... 😭🤡");
         });
     } else {
       console.log("no input");
@@ -58,6 +58,7 @@ function Tracker() {
       </div>
       {apiData && (
         <>
+          {inputError && <div className="error-div">{inputError}</div>}
           <div className="tracker-info">
             <img src={apiData.countryInfo.flag} alt="flag" />
             <div className="active-cases try">
@@ -79,8 +80,6 @@ function Tracker() {
           </div>
         </>
       )}
-
-      {inputError && <div className="error-div">{inputError}</div>}
     </>
   );
 }
