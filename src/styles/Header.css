@@ -1,0 +1,11 @@
+.logo {
+  font-family: "Rubik", sans-serif;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  width: 100%;
+}
