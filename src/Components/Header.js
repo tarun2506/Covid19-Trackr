@@ -5,7 +5,7 @@ function Header() {
   return (
     <div className="container-header">
       <nav className="nav">
-        <img src="https://img.icons8.com/ios/60/000000/virus.png" />
+        <img src="https://img.icons8.com/ios/60/000000/virus.png" alt="img" />
         <h1 className="logo">Covid19 Trackr</h1>
       </nav>
     </div>
